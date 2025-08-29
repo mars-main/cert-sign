@@ -1,8 +1,11 @@
-module github.com/mars-tool-ext/cert-sign
+module github.com/mars-main/cert-sign
 
 go 1.21
 
-require github.com/spf13/cobra v1.8.0
+require (
+	github.com/mars-tool-ext/cert-sign v0.0.3
+	github.com/spf13/cobra v1.8.0
+)
 
 require (
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mars-tool-ext/cert-sign/signer"
-	"github.com/mars-tool-ext/cert-sign/verifier"
+	"github.com/mars-main/cert-sign/signer"
+	"github.com/mars-main/cert-sign/verifier"
 
 	"github.com/spf13/cobra"
 )
